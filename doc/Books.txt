@@ -1,0 +1,45 @@
+
+1) Dependency Injection
+http://www.manning.com/prasanna/
+ISBN: 193398855X
+Published August, 2009 | 352 pages 
+
+
+2) Spring Persistence -- A Running Start
+Published Feb 2009
+ISBN13: 978-1-4302-1877-7
+ISBN10: 1-4302-1877-0
+236 pp.
+
+
+3) Spring Enterprise Recipes: A Problem-Solution Approach 
+Paperback: 400 pages
+Publisher: Apress; 1 edition (December 1, 2009)
+Language: English
+ISBN-10: 1430224975
+ISBN-13: 978-1430224976
+
+
+4) xUnit Test Patterns: Refactoring Test Code
+Hardcover: 833 pages
+Publisher: Addison-Wesley (May 31, 2007)
+Language: English
+ISBN-10: 9780131495050
+ISBN-13: 978-0131495050
+
+
+5) Test Driven Development: By Example
+Paperback: 240 pages
+Publisher: Addison-Wesley Professional (November 18, 2002)
+Language: English
+ISBN-10: 9780321146533
+ISBN-13: 978-0321146533
+
+
+6) JUnit in Action, Second Edition
+Paperback: 504 pages
+Publisher: Manning Publications; Second Edition edition (July 28, 2010)
+Language: English
+ISBN-10: 1935182021
+ISBN-13: 978-1935182023
+
