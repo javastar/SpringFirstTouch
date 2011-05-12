@@ -1,0 +1,16 @@
+Theme: Testing with Spring.
+
+Write unit tests using Mockito framework
+for Mock objects.
+
+Write integration tests using annotations:
+@ContextConfiguration
+@Autowired
+@ExpectedException
+@Timed
+@Repeat
+@TransactionConfiguration
+@BeforeTransaction
+@AfterTransaction
+
+

@@ -1,0 +1,17 @@
+Theme: single bean deployment to Spring container.
+
+Create entity (student/worker/mail/etc).
+Introduce MockDatabase bean inside Spring container.
+Implement basic operations:
+    saveEntity(Entity entity)
+    List<Entity> getAllEntities()
+Write tests to check all this operations.
+
+
+Simple Help:
+Bean definition in Spring container:
+<bean id="database" class="lv.courses.spring.database.MockDatabase"/>
+
+ApplicationContext methods:
+appContext.getBean(Database.class);
+appContext.getBean("database");

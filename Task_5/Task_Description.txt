@@ -1,0 +1,10 @@
+Theme: Two implementations for one bean.
+
+Introduce second implementation for Database: RealDatabase.
+Create two config files for different implementations.
+
+
+Define bean with two implementations:
+    <bean id="database" class="${database.class}"/>
+Activate placeholder:
+    <context:property-placeholder location="classpath:env.properties"/>

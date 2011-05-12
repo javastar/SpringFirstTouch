@@ -1,0 +1,13 @@
+Theme: Annotation configuration style.
+
+Use annotations for deploy Spring beans
+inside container.
+Try to use annotations:
+@Component
+@Autowired
+
+Activate classpath scan:
+<context:component-scan base-package="lv.courses.spring"/>
+
+
+Try write another Application bean and deploy it to container.

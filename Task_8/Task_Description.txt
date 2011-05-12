@@ -1,0 +1,19 @@
+Theme: Declarative Transaction Management.
+
+Implement Declarative Transaction Management
+for database access.
+
+Database must use Hibernate SessionFactory
+API for database access.
+
+Code example:
+    public void saveEntity(MyEntity entity) {
+        sessionFactory.getCurrentSession().save(entity);
+    }
+
+    public List<MyEntity> getAllEntities() {
+        Session currentSession = sessionFactory.getCurrentSession();
+        Query query = currentSession.createQuery("from MyEntity");
+        return query.list();
+    }
+

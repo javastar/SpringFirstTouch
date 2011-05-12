@@ -1,0 +1,11 @@
+Theme: Dependency Injection.
+
+Introduce SaveEntityApplication bean.
+Implement entity validation inside SaveEntityApplication.
+If entity not valid throw IllegalArgumentException.
+
+Try to get Database dependency
+    using SaveEntityApplication constructor.
+    using SaveEntityApplication setter method.
+
+Use unit tests check results.

@@ -1,0 +1,7 @@
+Implement real database.
+
+1) Annotate entity with JPA annotations
+2) Define datasource inside Spring container
+3) Configure Hibernate SessionFactory as a Spring bean
+Use HibernateTemplate class for database quering and
+transaction handling.

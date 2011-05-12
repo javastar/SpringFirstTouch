@@ -1,0 +1,15 @@
+Theme: Setup project infrastructure.
+
+Introduce IDE (JIDEA 10 Community Edition)
+    show basic windows and commands.
+Describe project infrastructure.
+Develop and run simple unit test for Spring container instantiation.
+
+
+Run JUnit 4 tests:
+@RunWith(JUnit4.class)
+@BeforeClass – annotate set up method
+@Test – annotate test method
+
+Spring ApplicationContext instattiation:
+new ClassPathXmlApplicationContext(new String[] {"applicationContext.xml"});

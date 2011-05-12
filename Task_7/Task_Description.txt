@@ -1,0 +1,22 @@
+Theme: Aspect Oriented Programming with Spring.
+
+Implement logging interceptor for Database operations.
+Log each operation execution time.
+
+Use:
+
+Init interceptor scaning in classpath:
+    <aop:aspectj-autoproxy/>
+
+Define interceptor class:
+@Aspect
+
+@Around("execution(* lv.courses.spring.database.Database.*(..))")
+public Object doProfiling(ProceedingJoinPoint pjp) throws Throwable {
+    // before method invoke
+
+    Object o = pjp.proceed();
+
+    //after method invoke
+}
+
